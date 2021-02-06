@@ -1,5 +1,19 @@
 
 .init {
-    background: #212121;
+    background: linear-gradient(0.25turn,darkred 2%, pink 20%, white 40%, white 60%, lightblue 80%, darkblue 98%);
+    background-image: url(/img/haitiflag1920.jpg);
+    background-size: 100%;
     color: #eebdee;
+}
+
+h1 {
+    background: linear-gradient(0.25turn,rgba(139, 0, 0, 0.2) 2%, rgba(255, 192, 203, 0.4) 20%, rgba(255, 255, 255, 0.6) 40%, rgba(255, 255, 255, 0.6) 60%, rgba(173, 216, 230, 0.4) 80%, rgba(0, 0, 139, 0.2) 98%);
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    color: #0a5c10;
+    padding: 2vh;
+    margin: 3vh 0%;
+    width: 100vw;
+    font-size: 2em;
 }
